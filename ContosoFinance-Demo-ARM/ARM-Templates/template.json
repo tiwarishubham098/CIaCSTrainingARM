@@ -17,7 +17,7 @@
     },
     "ProjectName": {
       "type": "string",
-      "defaultValue": "ContosoFinance-Demo",
+      "defaultValue": "CIaCSTraining",
       "metadata": {
         "description": "Select name Project, all reosuces will be deployed following the naming convention using this projectname"
       }
@@ -25,7 +25,7 @@
     },
     "hostingPlanName": {
       "type": "string",
-      "defaultValue": "ContosoFinance-Demo-Plan",
+      "defaultValue": "CIaCSTraining-Plan",
       "metadata": {
         "description": "Select name for App Service Plan"
       }
@@ -33,7 +33,7 @@
 
     "webappname": {
       "type": "string",
-      "defaultValue": "ContosoFinance-Demo-Site",
+      "defaultValue": "CIaCSTraining-Site",
       "metadata": {
         "description": "Select name for Web App"
       }
@@ -42,7 +42,7 @@
 
     "apiname": {
       "type": "string",
-      "defaultValue": "ContosoFinance-Demo-Api",
+      "defaultValue": "CIaCSTraining-Api",
       "metadata": {
         "description": "Select name for API App"
       }
@@ -50,7 +50,7 @@
 
     "sqlserverName": {
       "type": "string",
-      "defaultValue": "ContosoFinance-Demo-Sql",
+      "defaultValue": "CIaCSTraining-Sql",
       "metadata": {
         "description": "Select name for SQL Server"
       }
@@ -58,7 +58,7 @@
 
     "databaseName": {
       "type": "string",
-      "defaultValue": "contosofinancedemodb",
+      "defaultValue": "ciacstrainingdb",
       "metadata": {
         "description": "Select name for database"
       }
@@ -102,16 +102,16 @@
     },
     "sqlAdministratorLoginPassword": {
       "type": "secureString",
-      "defaultValue": "Ajsy37_8fhewkb9!29Cfbchda",
+      "defaultValue": "Verity@123",
       "metadata": {
         "description": "The password of the admin user of the SQL Server"
       }
     }
   },
   "variables": {   
-    "repoURL": "https://github.com/SoniaConti/ContosoFinance-Demo-Web.git",
+    "repoURL": "https://github.com/SmithaVerity/CIaCSTrainingARM-Web.git",
     "branch": "master",
-    "APIrepoURL": "https://github.com/SoniaConti/ContosoFinance-Demo-API.git"
+    "APIrepoURL": "https://github.com/SmithaVerity/CIaCSTrainingARM-API.git"
 
   },
   "resources": [
