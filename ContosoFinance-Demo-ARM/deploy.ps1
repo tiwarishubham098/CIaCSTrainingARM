@@ -78,10 +78,10 @@ New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateUri
 
 # Start the deployment from Local File
 
-Write-Host "Starting deployment from Local Repo...";
-if(Test-Path $parametersFileURI) {
-    New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile $templateFilePath -TemplateParameterUri $parametersFileURI -Verbose;
-} else {
-    New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile $templateFilePath -Verbose;
-}
+#Write-Host "Starting deployment from Local Repo...";
+#if(Test-Path $parametersFileURI) {
+#    New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile $templateFilePath -TemplateParameterUri $parametersFileURI -Verbose;
+#} else {
+#    New-AzResourceGroupDeployment -ResourceGroupName $resourceGroupName -TemplateFile $templateFilePath -Verbose;
+#}
 
