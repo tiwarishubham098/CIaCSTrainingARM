@@ -6,15 +6,15 @@
 
 
 $subscriptionId = "4ae8209e-3244-4e03-bea5-1967328bb3a9" #insert your subscription ID
-$resourceGroupName = "ContosoFinance-Demo-rg"  #provide resource group name
+$resourceGroupName = "CIaCS-rg"  #provide resource group name
 $resourceGroupLocation = "WestEurope"  #location
 
 # The below  file can be used if the templates are stored locally 
-# $templateFilePath = "ContosoFinance-Demo-ARM\ARM-Templates\template.json"
-# $parametersFilePath = "ContosoFinance-Demo-ARM\ARM-Templates\paramters.json"
+# $templateFilePath = "CIaCSTrainingARM-ARM\ARM-Templates\template.json"
+# $parametersFilePath = "CIaCSTrainingARM-ARM\ARM-Templates\paramters.json"
 
-$templateFileURI = 'https://raw.githubusercontent.com/SoniaConti/ContosoFinance-Demo/main/ContosoFinance-Demo-ARM/ARM-Templates/template.json'
-$parametersFileURI = 'https://raw.githubusercontent.com/SoniaConti/ContosoFinance-Demo/main/ContosoFinance-Demo-ARM/ARM-Templates/paramters.json'
+$templateFileURI = 'https://raw.githubusercontent.com/SmithaVerity/CIaCSTrainingARM/main/ContosoFinance-Demo-ARM/ARM-Templates/template.json'
+$parametersFileURI = 'https://raw.githubusercontent.com/SmithaVerity/CIaCSTrainingARM/main/ContosoFinance-Demo-ARM/ARM-Templates/paramters.json'
 
 
 Function RegisterRP {
